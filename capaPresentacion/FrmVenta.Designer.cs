@@ -87,7 +87,7 @@
             this.btnNuevo = new System.Windows.Forms.Button();
             this.tabPage = new System.Windows.Forms.TabPage();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label17 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorIcono)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).BeginInit();
             this.tabPage1.SuspendLayout();
@@ -96,14 +96,13 @@
             this.groupBox.SuspendLayout();
             this.tabPage.SuspendLayout();
             this.tabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtIdarticulo
             // 
             this.txtIdarticulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtIdarticulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtIdarticulo.Location = new System.Drawing.Point(6, 19);
+            this.txtIdarticulo.Location = new System.Drawing.Point(20, 19);
             this.txtIdarticulo.Name = "txtIdarticulo";
             this.txtIdarticulo.Size = new System.Drawing.Size(65, 20);
             this.txtIdarticulo.TabIndex = 17;
@@ -124,7 +123,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(514, 123);
+            this.label11.Location = new System.Drawing.Point(529, 74);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(28, 13);
             this.label11.TabIndex = 26;
@@ -133,7 +132,7 @@
             // lblTotal_Pagado
             // 
             this.lblTotal_Pagado.AutoSize = true;
-            this.lblTotal_Pagado.Location = new System.Drawing.Point(124, 438);
+            this.lblTotal_Pagado.Location = new System.Drawing.Point(143, 385);
             this.lblTotal_Pagado.Name = "lblTotal_Pagado";
             this.lblTotal_Pagado.Size = new System.Drawing.Size(22, 13);
             this.lblTotal_Pagado.TabIndex = 28;
@@ -142,7 +141,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(259, 121);
+            this.label9.Location = new System.Drawing.Point(265, 72);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(47, 13);
             this.label9.TabIndex = 25;
@@ -152,7 +151,7 @@
             // 
             this.txtIdventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtIdventa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtIdventa.Location = new System.Drawing.Point(91, 72);
+            this.txtIdventa.Location = new System.Drawing.Point(106, 29);
             this.txtIdventa.Name = "txtIdventa";
             this.txtIdventa.Size = new System.Drawing.Size(110, 20);
             this.txtIdventa.TabIndex = 17;
@@ -165,7 +164,7 @@
             "BOLETA",
             "FACTURA",
             "GUIA REMISIÓN"});
-            this.cbTipo_comprobante.Location = new System.Drawing.Point(111, 118);
+            this.cbTipo_comprobante.Location = new System.Drawing.Point(116, 64);
             this.cbTipo_comprobante.Name = "cbTipo_comprobante";
             this.cbTipo_comprobante.Size = new System.Drawing.Size(121, 21);
             this.cbTipo_comprobante.TabIndex = 24;
@@ -183,7 +182,7 @@
             // dtFecha
             // 
             this.dtFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtFecha.Location = new System.Drawing.Point(561, 71);
+            this.dtFecha.Location = new System.Drawing.Point(587, 29);
             this.dtFecha.Name = "dtFecha";
             this.dtFecha.Size = new System.Drawing.Size(200, 20);
             this.dtFecha.TabIndex = 23;
@@ -191,7 +190,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(502, 73);
+            this.label7.Location = new System.Drawing.Point(528, 31);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 22;
@@ -200,7 +199,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(231, 74);
+            this.label10.Location = new System.Drawing.Point(263, 34);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(42, 13);
             this.label10.TabIndex = 21;
@@ -210,7 +209,7 @@
             // 
             this.txtIgv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtIgv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtIgv.Location = new System.Drawing.Point(561, 119);
+            this.txtIgv.Location = new System.Drawing.Point(576, 70);
             this.txtIgv.Name = "txtIgv";
             this.txtIgv.Size = new System.Drawing.Size(94, 20);
             this.txtIgv.TabIndex = 4;
@@ -219,7 +218,7 @@
             // 
             this.txtCorrelativo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtCorrelativo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCorrelativo.Location = new System.Drawing.Point(394, 121);
+            this.txtCorrelativo.Location = new System.Drawing.Point(400, 70);
             this.txtCorrelativo.Name = "txtCorrelativo";
             this.txtCorrelativo.Size = new System.Drawing.Size(94, 20);
             this.txtCorrelativo.TabIndex = 4;
@@ -228,7 +227,7 @@
             // 
             this.txtSerie.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtSerie.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSerie.Location = new System.Drawing.Point(312, 119);
+            this.txtSerie.Location = new System.Drawing.Point(318, 70);
             this.txtSerie.Name = "txtSerie";
             this.txtSerie.Size = new System.Drawing.Size(66, 20);
             this.txtSerie.TabIndex = 4;
@@ -236,7 +235,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(42, 74);
+            this.label3.Location = new System.Drawing.Point(57, 31);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 0;
@@ -256,7 +255,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(52, 55);
+            this.label1.Location = new System.Drawing.Point(44, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 29);
             this.label1.TabIndex = 12;
@@ -266,7 +265,7 @@
             // 
             this.txtIdCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtIdCliente.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtIdCliente.Location = new System.Drawing.Point(296, 34);
+            this.txtIdCliente.Location = new System.Drawing.Point(692, 70);
             this.txtIdCliente.Name = "txtIdCliente";
             this.txtIdCliente.Size = new System.Drawing.Size(50, 20);
             this.txtIdCliente.TabIndex = 17;
@@ -275,7 +274,7 @@
             // 
             this.txtCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtCliente.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCliente.Location = new System.Drawing.Point(296, 71);
+            this.txtCliente.Location = new System.Drawing.Point(311, 31);
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(137, 20);
             this.txtCliente.TabIndex = 15;
@@ -292,7 +291,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 118);
+            this.label6.Location = new System.Drawing.Point(25, 64);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 13);
             this.label6.TabIndex = 10;
@@ -326,7 +325,7 @@
             this.dataListado.Name = "dataListado";
             this.dataListado.ReadOnly = true;
             this.dataListado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataListado.Size = new System.Drawing.Size(923, 399);
+            this.dataListado.Size = new System.Drawing.Size(923, 331);
             this.dataListado.TabIndex = 7;
             this.dataListado.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataListado_CellContentClick);
             this.dataListado.DoubleClick += new System.EventHandler(this.DataListado_DoubleClick);
@@ -463,7 +462,7 @@
             this.groupBox2.Controls.Add(this.txtArticulo);
             this.groupBox2.Controls.Add(this.btnBuscarArticulo);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Location = new System.Drawing.Point(29, 159);
+            this.groupBox2.Location = new System.Drawing.Point(28, 107);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(861, 125);
             this.groupBox2.TabIndex = 27;
@@ -594,7 +593,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(26, 438);
+            this.label16.Location = new System.Drawing.Point(45, 385);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(92, 13);
             this.label16.TabIndex = 31;
@@ -603,7 +602,7 @@
             // dataListadoDetalle
             // 
             this.dataListadoDetalle.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataListadoDetalle.Location = new System.Drawing.Point(29, 300);
+            this.dataListadoDetalle.Location = new System.Drawing.Point(41, 247);
             this.dataListadoDetalle.Name = "dataListadoDetalle";
             this.dataListadoDetalle.Size = new System.Drawing.Size(820, 118);
             this.dataListadoDetalle.TabIndex = 28;
@@ -634,7 +633,7 @@
             this.groupBox.Controls.Add(this.label3);
             this.groupBox.Location = new System.Drawing.Point(20, 24);
             this.groupBox.Name = "groupBox";
-            this.groupBox.Size = new System.Drawing.Size(940, 484);
+            this.groupBox.Size = new System.Drawing.Size(940, 432);
             this.groupBox.TabIndex = 0;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Ventas";
@@ -643,7 +642,7 @@
             // 
             this.btnBuscarCliente.BackgroundImage = global::capaPresentacion.Properties.Resources.loupe_78956;
             this.btnBuscarCliente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBuscarCliente.Location = new System.Drawing.Point(439, 62);
+            this.btnBuscarCliente.Location = new System.Drawing.Point(454, 22);
             this.btnBuscarCliente.Name = "btnBuscarCliente";
             this.btnBuscarCliente.Size = new System.Drawing.Size(40, 32);
             this.btnBuscarCliente.TabIndex = 18;
@@ -654,7 +653,7 @@
             // 
             this.btnGuardar.Image = global::capaPresentacion.Properties.Resources.diskette;
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(587, 424);
+            this.btnGuardar.Location = new System.Drawing.Point(601, 371);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(93, 41);
             this.btnGuardar.TabIndex = 9;
@@ -667,7 +666,7 @@
             // 
             this.btnCancelar.Image = global::capaPresentacion.Properties.Resources.menos2;
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(703, 424);
+            this.btnCancelar.Location = new System.Drawing.Point(721, 371);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(101, 41);
             this.btnCancelar.TabIndex = 8;
@@ -680,7 +679,7 @@
             // 
             this.btnNuevo.Image = global::capaPresentacion.Properties.Resources.folder;
             this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNuevo.Location = new System.Drawing.Point(467, 424);
+            this.btnNuevo.Location = new System.Drawing.Point(481, 371);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(94, 41);
             this.btnNuevo.TabIndex = 6;
@@ -704,29 +703,28 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage);
-            this.tabControl1.Location = new System.Drawing.Point(18, 112);
+            this.tabControl1.Location = new System.Drawing.Point(12, 75);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(989, 570);
             this.tabControl1.TabIndex = 13;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
-            // pictureBox1
+            // label17
             // 
-            this.pictureBox1.BackgroundImage = global::capaPresentacion.Properties.Resources.articulo_img;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(304, 46);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(109, 60);
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
+            this.label17.Image = global::capaPresentacion.Properties.Resources.ventas;
+            this.label17.Location = new System.Drawing.Point(179, 9);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(90, 74);
+            this.label17.TabIndex = 15;
             // 
             // FrmVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1026, 749);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1026, 563);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
             this.Name = "FrmVenta";
@@ -744,7 +742,6 @@
             this.groupBox.PerformLayout();
             this.tabPage.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -757,7 +754,6 @@
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ErrorProvider errorIcono;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
@@ -811,5 +807,6 @@
         private System.Windows.Forms.TextBox txtStock_actual;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox txtDescuento;
+        private System.Windows.Forms.Label label17;
     }
 }

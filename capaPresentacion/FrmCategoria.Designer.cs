@@ -48,7 +48,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
             this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
-            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.btnImprimir = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
@@ -259,13 +259,13 @@
             // 
             this.ttMensaje.IsBalloon = true;
             // 
-            // label6
+            // label7
             // 
-            this.label6.Image = global::capaPresentacion.Properties.Resources.electricidad1;
-            this.label6.Location = new System.Drawing.Point(206, 21);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 65);
-            this.label6.TabIndex = 2;
+            this.label7.Image = global::capaPresentacion.Properties.Resources.categorias;
+            this.label7.Location = new System.Drawing.Point(214, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(97, 84);
+            this.label7.TabIndex = 12;
             // 
             // btnImprimir
             // 
@@ -361,8 +361,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
             this.Name = "FrmCategoria";
@@ -409,6 +410,6 @@
         private System.Windows.Forms.ErrorProvider errorIcono;
         private System.Windows.Forms.ToolTip ttMensaje;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Eliminar;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

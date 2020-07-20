@@ -39,8 +39,8 @@
             this.lblTotal = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).BeginInit();
@@ -56,7 +56,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(37, 55);
+            this.label1.Location = new System.Drawing.Point(49, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 29);
             this.label1.TabIndex = 9;
@@ -151,17 +151,17 @@
             this.txtBuscar.Size = new System.Drawing.Size(161, 20);
             this.txtBuscar.TabIndex = 1;
             // 
-            // label6
-            // 
-            this.label6.Image = global::capaPresentacion.Properties.Resources.electricidad1;
-            this.label6.Location = new System.Drawing.Point(201, 35);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 65);
-            this.label6.TabIndex = 11;
-            // 
             // errorIcono
             // 
             this.errorIcono.ContainerControl = this;
+            // 
+            // label2
+            // 
+            this.label2.Image = global::capaPresentacion.Properties.Resources.cliente;
+            this.label2.Location = new System.Drawing.Point(193, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(97, 84);
+            this.label2.TabIndex = 12;
             // 
             // FrmVistaCliente_Venta
             // 
@@ -169,9 +169,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(798, 475);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.label6);
             this.Name = "FrmVistaCliente_Venta";
             this.Text = "Seleccione un Cliente";
             this.Load += new System.EventHandler(this.FrmVistaCliente_Venta_Load);
@@ -197,7 +197,7 @@
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtBuscar;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ErrorProvider errorIcono;
+        private System.Windows.Forms.Label label2;
     }
 }

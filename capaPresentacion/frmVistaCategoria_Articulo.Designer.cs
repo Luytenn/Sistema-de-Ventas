@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label6 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.chkEliminar = new System.Windows.Forms.CheckBox();
             this.btnBuscar = new System.Windows.Forms.Button();
@@ -39,18 +38,11 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).BeginInit();
             this.tabPage1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label6
-            // 
-            this.label6.Image = global::capaPresentacion.Properties.Resources.electricidad1;
-            this.label6.Location = new System.Drawing.Point(202, 17);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 65);
-            this.label6.TabIndex = 5;
             // 
             // lblTotal
             // 
@@ -161,12 +153,21 @@
             this.tabControl1.Size = new System.Drawing.Size(748, 349);
             this.tabControl1.TabIndex = 4;
             // 
+            // label3
+            // 
+            this.label3.Image = global::capaPresentacion.Properties.Resources.categorias;
+            this.label3.Location = new System.Drawing.Point(204, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(97, 84);
+            this.label3.TabIndex = 12;
+            // 
             // frmVistaCategoria_Articulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
             this.Name = "frmVistaCategoria_Articulo";
@@ -182,8 +183,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.CheckBox chkEliminar;
         private System.Windows.Forms.Button btnBuscar;
@@ -194,5 +193,6 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.Label label3;
     }
 }

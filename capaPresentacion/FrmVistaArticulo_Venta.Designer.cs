@@ -37,10 +37,10 @@
             this.dataListado = new System.Windows.Forms.DataGridView();
             this.Eliminar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblTotal = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).BeginInit();
@@ -131,17 +131,6 @@
             this.lblTotal.TabIndex = 6;
             this.lblTotal.Text = "label3";
             // 
-            // txtBuscar
-            // 
-            this.txtBuscar.Location = new System.Drawing.Point(185, 39);
-            this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(161, 20);
-            this.txtBuscar.TabIndex = 1;
-            // 
-            // errorIcono
-            // 
-            this.errorIcono.ContainerControl = this;
-            // 
             // btnBuscar
             // 
             this.btnBuscar.Image = global::capaPresentacion.Properties.Resources.loupe_78956;
@@ -155,13 +144,24 @@
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
-            // label6
+            // txtBuscar
             // 
-            this.label6.Image = global::capaPresentacion.Properties.Resources.electricidad1;
-            this.label6.Location = new System.Drawing.Point(204, 14);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 65);
-            this.label6.TabIndex = 14;
+            this.txtBuscar.Location = new System.Drawing.Point(185, 39);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(161, 20);
+            this.txtBuscar.TabIndex = 1;
+            // 
+            // errorIcono
+            // 
+            this.errorIcono.ContainerControl = this;
+            // 
+            // label2
+            // 
+            this.label2.Image = global::capaPresentacion.Properties.Resources.articulo2;
+            this.label2.Location = new System.Drawing.Point(192, 22);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(94, 70);
+            this.label2.TabIndex = 15;
             // 
             // FrmVistaArticulo_Venta
             // 
@@ -169,9 +169,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 503);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.label6);
             this.Name = "FrmVistaArticulo_Venta";
             this.Text = "Seleccione un Artículo";
             this.Load += new System.EventHandler(this.FrmVistaArticulo_Venta_Load);
@@ -197,7 +197,7 @@
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtBuscar;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ErrorProvider errorIcono;
+        private System.Windows.Forms.Label label2;
     }
 }

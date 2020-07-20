@@ -354,6 +354,17 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\worker_icon-icons.com_55029.png" />
+    <None Include="Resources\articulo.png" />
+    <None Include="Resources\articulo1.png" />
+    <None Include="Resources\ventas.png" />
+    <None Include="Resources\worker_icon-icons.com_550291.png" />
+    <None Include="Resources\proveedor.png" />
+    <None Include="Resources\ingreso_almacen.png" />
+    <None Include="Resources\cliente.png" />
+    <None Include="Resources\categorias.png" />
+    <None Include="Resources\articulo2.png" />
+    <None Include="Resources\parcel-weight %281%29.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

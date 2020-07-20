@@ -39,9 +39,9 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.label6 = new System.Windows.Forms.Label();
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
             this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).BeginInit();
             this.tabPage1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -144,7 +144,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(38, 27);
+            this.label1.Location = new System.Drawing.Point(35, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(163, 29);
             this.label1.TabIndex = 6;
@@ -153,19 +153,11 @@
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(26, 75);
+            this.tabControl1.Location = new System.Drawing.Point(26, 97);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(748, 432);
             this.tabControl1.TabIndex = 7;
-            // 
-            // label6
-            // 
-            this.label6.Image = global::capaPresentacion.Properties.Resources.electricidad1;
-            this.label6.Location = new System.Drawing.Point(202, 7);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 65);
-            this.label6.TabIndex = 8;
             // 
             // errorIcono
             // 
@@ -175,15 +167,23 @@
             // 
             this.ttMensaje.IsBalloon = true;
             // 
+            // label6
+            // 
+            this.label6.Image = global::capaPresentacion.Properties.Resources.proveedor;
+            this.label6.Location = new System.Drawing.Point(233, 19);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(97, 75);
+            this.label6.TabIndex = 12;
+            // 
             // FrmVistaProveedor_Ingreso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 514);
+            this.ClientSize = new System.Drawing.Size(800, 540);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.label6);
             this.Name = "FrmVistaProveedor_Ingreso";
             this.Text = "Seleccione un  Proveedor";
             this.Load += new System.EventHandler(this.FrmVistaProveedor_Ingreso_Load);
@@ -209,8 +209,8 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ErrorProvider errorIcono;
         private System.Windows.Forms.ToolTip ttMensaje;
+        private System.Windows.Forms.Label label6;
     }
 }
